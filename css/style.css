@@ -10,7 +10,7 @@ body {
 	color: #fff;
 }
 
-.container {
+.wrapper {
 	max-width: 1080px;
 	min-height: 100%;
 	padding-top: 72px;
@@ -84,6 +84,13 @@ body {
 }
 .navbar__blog2 > ul > li:nth-child(2) {
 	margin: 0 25px 0 25px;
+}
+.logo {
+	padding: 5px;
+	background: rgba(75, 85, 99, 1);
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
 }
 .search {
 	display: flex;

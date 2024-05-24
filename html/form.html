@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style_form.css">
+	<title>Регистрация</title>
+</head>
+
+<body>
+	<main>
+		<div class="wrapper">
+			<div class="head">
+				<h1>Регистрация</h1>
+				<div class="login">
+					<p>Уже есть аккаунт?</p>
+					<a href="/login">Войти</a>
+				</div>
+			</div>
+			<form action="#">
+				<div class="input">
+					<input type="text" name="company">
+				</div>
+				<div class="input__name">
+					<input type="text" placeholder="Имя" name="User_name" required>
+					<input type="text" placeholder="Фамилия" name="User_surname" required>
+				</div>
+				<div class="input">
+					<input type="email" name="email" placeholder="E-mail" required>
+				</div>
+				<div class="btn">
+					<button class="btn__primary" type="submit">Зарегистрироваться</button>
+					<img class="icon" src="https://www.onlygfx.com/wp-content/uploads/2018/11/14-chalk-arrows-11.png"
+						alt="кнопка регестраций">
+				</div>
+				<div class="agreement">
+					<input type="checkbox" name="agreement" required />
+					<label for="agreement">Я прочитал и принимаю <a href="/agreement">Условия использования</a></label>
+				</div>
+			</form>
+		</div>
+	</main>
+</body>
+
+</html>
