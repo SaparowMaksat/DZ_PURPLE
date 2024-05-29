@@ -2,7 +2,7 @@
 
 html,
 body {
-	max-width: 1440px;
+	width: 1440px;
 	/* height: 100%; */
 	padding: 0;
 	background: linear-gradient(180deg, #374151 0%, #111827 100%) no-repeat;
@@ -32,38 +32,28 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
+
 .navbar__blog1 {
+	display: flex;
+	justify-content: center;
 	width: inherit;
 }
-.navbar__blog1 > ul {
+.navbar__blog1 > a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	list-style: none;
-	padding: 0;
-}
-.navbar__blog1 > ul > li > a {
 	text-decoration: none;
 	color: #ffffff;
 }
-.navbar__blog1 > ul > li:nth-child(1) {
+.navbar__blog1 > a > span {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-right: 11px;
 	width: 35px;
 	height: 35px;
 	border-radius: 3px;
-	background: #4b5563;
-	box-shadow: 0px 15px 30px 0px #00000026;
-	font-size: 18px;
-	font-weight: 600;
-	line-height: 22.63px;
-}
-.navbar__blog1 > ul > li:nth-child(2) {
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 21.09px;
+	margin: 0 11px 0 0;
+	background: rgba(75, 85, 99, 1);
 }
 .navbar__blog2 {
 	width: inherit;
@@ -154,17 +144,17 @@ body {
 .admin__avatar {
 	margin: 0px 16px 0px 0px;
 }
-.admin__name {
-	font-size: 16px;
+.admin__info > p {
 	font-weight: 400;
 	line-height: 28px;
 	text-align: left;
+	margin: 0;
+}
+.admin__name {
+	font-size: 16px;
 }
 .admin__prof {
 	font-size: 14px;
-	font-weight: 400;
-	line-height: 28px;
-	text-align: left;
 	color: rgba(255, 255, 255, 0.5);
 }
 .main__img {
@@ -174,27 +164,28 @@ body {
 	margin: 28px 0px 69px 0px;
 }
 .main__paragraph {
-	display: grid;
-	justify-content: center;
-}
-.main__p1 {
+	position: relative;
+	left: 10%;
 	width: 708px;
+	text-align: left;
+}
+.main__paragraph p {
 	height: 101px;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 32px;
-	text-align: justify;
 	margin-bottom: 185px;
 }
-.main__p2 {
-	width: 708px;
+.main__paragraph p:last-child {
+	display: grid;
 	height: 281px;
 	font-size: 16px;
-	font-weight: 400;
 	line-height: 30px;
-	text-align: justify;
+	margin: 0;
 }
-
+.main__paragraph > p > span {
+	margin: 30px 0 0 0;
+}
 /* -----------------FOOTER--------------------- */
 
 .footer {
