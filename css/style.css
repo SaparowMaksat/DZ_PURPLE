@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,500,900&display=swap');
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 html,
 body {
 	width: 1440px;
-	/* height: 100%; */
-	padding: 0;
 	background: linear-gradient(180deg, #374151 0%, #111827 100%) no-repeat;
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
@@ -13,7 +17,7 @@ body {
 .wrapper {
 	max-width: 1080px;
 	min-height: 100%;
-	padding-top: 72px;
+	padding-top: 71px;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -25,10 +29,10 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 0 auto;
 }
 .navbar {
 	display: flex;
-	width: 540px;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -36,7 +40,7 @@ body {
 .navbar__blog1 {
 	display: flex;
 	justify-content: center;
-	width: inherit;
+	margin: 0 77px 0 0;
 }
 .navbar__blog1 > a {
 	display: flex;
@@ -55,9 +59,6 @@ body {
 	margin: 0 11px 0 0;
 	background: rgba(75, 85, 99, 1);
 }
-.navbar__blog2 {
-	width: inherit;
-}
 .navbar__blog2 > ul {
 	display: flex;
 	justify-content: space-around;
@@ -66,14 +67,13 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 18.75px;
-	padding: 0;
 }
 .navbar__blog2 > ul > li > a {
 	text-decoration: none;
 	color: #fff;
 }
 .navbar__blog2 > ul > li:nth-child(2) {
-	margin: 0 25px 0 25px;
+	margin: 0 39px 0 52px;
 }
 .logo {
 	padding: 5px;
@@ -91,7 +91,7 @@ body {
 	left: 12%;
 	width: 20px;
 	height: 20px;
-	opacity: 0.5px;
+	opacity: 0.3;
 }
 .search__input {
 	width: 224px;
@@ -114,16 +114,17 @@ body {
 	display: flex;
 	justify-content: center;
 	flex: 1 1 auto;
+	margin: 87px 0 0 0;
 }
 .main__data {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 87px 0px 14px 0px;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 16.41px;
 	color: rgba(255, 255, 255, 0.5);
+	margin: 0 0 14px 0;
 }
 .main__title {
 	position: relative;
@@ -148,7 +149,6 @@ body {
 	font-weight: 400;
 	line-height: 28px;
 	text-align: left;
-	margin: 0;
 }
 .admin__name {
 	font-size: 16px;
@@ -181,7 +181,6 @@ body {
 	height: 281px;
 	font-size: 16px;
 	line-height: 30px;
-	margin: 0;
 }
 .main__paragraph > p > span {
 	margin: 30px 0 0 0;
