@@ -1,0 +1,123 @@
+.card-box {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.card {
+	display: grid;
+	gap: 16px;
+	width: 369px;
+	padding: 48px 40px;
+	height: 100%;
+	border-radius: var(--brs-8);
+	fill: var(--color-white);
+	box-shadow: var(--box-shadow);
+}
+.card__discount {
+	border-radius: 8px;
+	padding: 4px 16px;
+	width: 124px;
+	height: 29px;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 140%;
+	background: var(--bg-green);
+	color: var(--color-white);
+}
+
+.card__price {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 289px;
+	height: 126px;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 120%;
+	margin: 16px 0 24px 0;
+	color: var(--color-price);
+}
+.card__price-light {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 289px;
+	height: 126px;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 120%;
+	margin: 16px 0 24px 0;
+	color: var(--color-white);
+}
+.card__months {
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 120%;
+	color: var(--color-black);
+}
+.card__months-white {
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 120%;
+	color: var(--color-white);
+}
+.card__paragraph {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 140%;
+	color: var(--color-p);
+}
+.card__paragraph-grey {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 140%;
+	color: var(--color-p-light);
+}
+.card__p-left {
+	display: grid;
+	align-items: center;
+	width: 168px;
+}
+.card__p-right {
+	display: grid;
+	align-items: center;
+	padding: 0 0 0 20px;
+}
+
+.btn {
+	font-weight: 800;
+	font-size: 17px;
+	line-height: 140%;
+	border-radius: 47px;
+	padding: 12px 63px;
+	width: 289px;
+	height: 48px;
+	border: none;
+}
+.btn__primary {
+	background: var(--bg-primary);
+	color: var(--color-white);
+}
+.btn__white {
+	background: var(--color-white);
+	color: var(--bg-primary);
+}
+.label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	right: 15%;
+	width: 99px;
+	height: 36px;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 120%;
+	border-radius: var(--brs-8);
+	background: var(--bg-yellow);
+	color: var(--color-white);
+}
+
+.hr {
+	border-bottom: 1px solid rgba(78, 93, 124, 0.08);
+}
+.pad {
+	padding: 93px 40px 48px;
+}
