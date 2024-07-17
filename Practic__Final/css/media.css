@@ -1,0 +1,35 @@
+/*----------Header----------*/
+@media (max-width: 2560px) {
+}
+@media (max-width: 1440px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 920px) {
+	.header__nav {
+		display: flex;
+		justify-content: space-between;
+	}
+	.header-nav__ul {
+		display: none;
+	}
+	.btn.btn-light {
+		display: none;
+	}
+	.header-image {
+		display: none;
+	}
+}
+@media (min-width: 920px) {
+	.header-nav__burger {
+		display: none;
+	}
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 425px) {
+}
+@media (max-width: 375px) {
+}
+@media (max-width: 325px) {
+}

@@ -1,0 +1,20 @@
+.analizes {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 80px;
+}
+.analizes__info {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 16px;
+	width: 408px;
+	height: 64px;
+}
+.analizes__info-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 120%;
+	color: var(--color-black);
+}

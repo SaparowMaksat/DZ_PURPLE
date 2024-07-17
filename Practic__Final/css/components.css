@@ -1,0 +1,15 @@
+/*------------Button----------*/
+
+.btn {
+	border-radius: 34px;
+	padding: var(--padding-12x32);
+	height: 48px;
+	border: none;
+	text-align: center;
+}
+.btn-light {
+	font-weight: 800;
+	font-size: 17px;
+	line-height: 140%;
+	color: var(--bg-primary);
+}
